@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling for the header and navigation */
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Style for Recruiters section */
+        .recruiters-section {
+            background-image: url('background.jpg'); /* Same background image as the Home page */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            padding: 20px;
+        }
+
+        .recruiters-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .recruiters-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+        }
+    </style>
+    <title>Our Recruiters - Ideal College Placements</title>
+</head>
+<body>
+    <header>
+        <h1>Our Recruiters</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recruiters.html">Our Recruiters</a></li>
+            <li><a href="statistics.html">Placement Statistics</a></li>
+        </ul>
+    </nav>
+    <section class="content recruiters-section">
+        <h2>Recruiting Companies</h2>
+        <ul class="recruiters-list">
+            <li>Company ABC</li>
+            <li>Company XYZ</li>
+            <li>Company Tech Solutions</li>
+            <li>Company Innovations Inc.</li>
+            <!-- Add more random companies here -->
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2023 Ideal College Placements</p>
+    </footer>
+</body>
+</html>

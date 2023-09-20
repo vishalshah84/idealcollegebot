@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling for the header and navigation */
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Style for Statistics section */
+        .statistics-section {
+            background-image: url('background.jpg'); /* Same background image as the Home page */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            padding: 20px;
+        }
+
+        .statistics-content {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+        }
+
+        /* Style for the statistics bar graph */
+        .bar-graph {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .bar-label {
+            width: 150px;
+            font-weight: bold;
+        }
+
+        .bar {
+            flex-grow: 1;
+            height: 30px;
+            background-color: #007BFF;
+            margin: 0 10px;
+        }
+    </style>
+    <title>Placement Statistics - Ideal College Placements</title>
+</head>
+<body>
+    <header>
+        <h1>Placement Statistics</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recruiters.html">Our Recruiters</a></li>
+            <li><a href="statistics.html">Placement Statistics</a></li>
+        </ul>
+    </nav>
+    <section class="content statistics-section">
+        <div class="statistics-content">
+            <h2>Placement Data and Graphs</h2>
+            <p>Explore the placement statistics for Computer Science students at Ideal College.</p>
+
+            <!-- Sample Statistics -->
+            <div class="bar-graph">
+                <div class="bar-label">Placement Rate</div>
+                <div class="bar" style="width: 75%;"></div>
+            </div>
+            <div class="bar-graph">
+                <div class="bar-label">Average Salary</div>
+                <div class="bar" style="width: 60%;"></div>
+            </div>
+            <div class="bar-graph">
+                <div class="bar-label">Internship Offers</div>
+                <div class="bar" style="width: 85%;"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Ideal College Placements</p>
+    </footer>
+</body>
+</html>

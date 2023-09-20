@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Add styles for the examination steps */
+.exam-steps {
+    list-style: none;
+    padding: 0;
+}
+
+.exam-steps li {
+    margin-bottom: 20px;
+    border: 2px solid #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step-title {
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+
+
+/* Add styles for exam notices */
+.exam-notice-list {
+    list-style: none;
+    padding: 0;
+}
+
+.exam-notice {
+    margin-bottom: 20px;
+    border: 2px solid #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exam-notice h3 {
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.notice-info p {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+
+/* Add attractive styles */
+
+/* Header */
+.header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 36px;
+}
+
+/* Navigation */
+.navigation {
+    background-color: #333;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Content */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Introduction Section */
+.intro-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.intro-text {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Search Section */
+.search-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.search-label {
+    font-size: 18px;
+    color: #333;
+}
+
+.search-select,
+.search-input,
+.search-button {
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #2577b5;
+}
+
+/* Question Papers Section */
+.papers-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.papers-list {
+    list-style: none;
+    padding: 0;
+}
+
+.paper-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.paper-link:hover {
+    background-color: #f0f0f0;
+}
+
+/* Footer */
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+}

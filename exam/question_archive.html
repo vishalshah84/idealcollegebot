@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Question Paper Archive - Ideal College</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Question Paper Archive</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="notices.html">Notices</a></li>
+            <li><a href="exam_process.html">Examination Process</a></li>
+            <li><a href="question_archive.html">Question Paper Archive</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <section class="intro">
+            <h2 class="intro-title">Welcome to the Question Paper Archive</h2>
+            <p class="intro-text">Explore and download past question papers for various courses and subjects at Ideal College.</p>
+        </section>
+        <section class="search">
+            <h2 class="search-title">Search for Question Papers</h2>
+            <form action="#" method="get" class="search-form">
+                <label for="course" class="search-label">Course:</label>
+                <select name="course" id="course" class="search-select">
+                    <option value="java">Java Programming</option>
+                    <option value="python">Python Programming</option>
+                    <option value="math">Mathematics</option>
+                </select>
+                <label for="year" class="search-label">Year:</label>
+                <input type="number" name="year" id="year" min="2000" max="2023" class="search-input">
+                <input type="submit" value="Search" class="search-button">
+            </form>
+        </section>
+        <section class="papers">
+            <h2 class="papers-title">Available Question Papers</h2>
+            <ul class="papers-list">
+                <li><a href="#" class="paper-link">Java Programming - Final Exam 2022</a></li>
+                <li><a href="#" class="paper-link">Python Programming - Midterm Exam 2021</a></li>
+                <li><a href="#" class="paper-link">Mathematics - Final Exam 2020</a></li>
+                <!-- Add more question papers as needed -->
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2023 Ideal College</p>
+    </footer>
+</body>
+</html>

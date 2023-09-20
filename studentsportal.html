@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal College Student Portal</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        /* Highlighted menu item */
+        .active {
+            background-color: #0056b3;
+            border-radius: 5px;
+            transform: scale(1.1); /* Scaling effect */
+        }
+
+        /* Section Styles */
+        .content {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        /* Link Styles */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ideal College Student Portal</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#bsc-cs">B.Sc (Computer Science)</a></li>
+            <li><a href="#bsc-it">B.Sc (Information Technology)</a></li>
+            <li><a href="#pharmacy">Pharmacy</a></li>
+            <li><a href="#junior-college">Junior College</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section id="bsc-cs">
+            <h2>B.Sc (Computer Science)</h2>
+            <p>Welcome to the B.Sc (Computer Science) program at Ideal College. Our program is designed to equip students with the latest skills in programming, algorithms, and computer systems. Exciting courses like Artificial Intelligence and Web Development await you!</p>
+            <p>Important Links:</p>
+            <ul>
+                <li><a href="bsc_cs_curriculum.pdf">Program Curriculum</a></li>
+                <li><a href="bsc_cs_events.html">Upcoming Events</a></li>
+                <li><a href="bsc_cs_resources.html">Study Resources</a></li>
+            </ul>
+        </section>
+        
+        <section id="bsc-it">
+            <h2>B.Sc (Information Technology)</h2>
+            <p>Discover the world of Information Technology with our B.Sc (IT) program. Gain expertise in database management, networking, and cybersecurity. Get ready for a career in IT management or systems analysis!</p>
+            <p>Important Links:</p>
+            <ul>
+                <li><a href="bsc_it_curriculum.pdf">Program Curriculum</a></li>
+                <li><a href="bsc_it_events.html">Upcoming Events</a></li>
+                <li><a href="bsc_it_resources.html">Study Resources</a></li>
+            </ul>
+        </section>
+        
+        <section id="pharmacy">
+            <h2>Pharmacy</h2>
+            <p>Our Pharmacy program prepares students for a rewarding career in healthcare. Learn about pharmaceutical science, patient care, and drug therapy management. Join us in making a difference in people's lives!</p>
+            <p>Important Links:</p>
+            <ul>
+                <li><a href="pharmacy_curriculum.pdf">Program Curriculum</a></li>
+                <li><a href="pharmacy_events.html">Upcoming Events</a></li>
+                <li><a href="pharmacy_resources.html">Study Resources</a></li>
+            </ul>
+        </section>
+        
+        <section id="junior-college">
+            <h2>Junior College</h2>
+            <p>Our Junior College offers a wide range of courses in arts, science, and commerce. Prepare for higher education and explore your interests. We are committed to nurturing young minds!</p>
+            <p>Important Links:</p>
+            <ul>
+                <li><a href="junior_college_courses.pdf">Course Catalog</a></li>
+                <li><a href="junior_college_events.html">Upcoming Events</a></li>
+                <li><a href="junior_college_resources.html">Study Resources</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        // JavaScript to add a class to the clicked menu item and remove it from others
+        const menuItems = document.querySelectorAll('nav ul li');
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                menuItems.forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
