@@ -1,0 +1,84 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal College - Payment Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Updated CSS for the payment history table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        /* Formatting Rupee currency */
+        .rupee::before {
+            content: "\20B9 "; /* Rupee symbol */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ideal College Payment Details</h1>
+    </header>
+    <nav>
+        <!-- ... (navigation) ... -->
+    </nav>
+    <main>
+        <section id="payment-details">
+            <h2>Payment History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Payment Amount</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BS12345</td>
+                        <td>Rushali</td>
+                        <td><span class="rupee">50000</span></td>
+                        <td>2023-10-05</td>
+                    </tr>
+                    <tr>
+                        <td>BS67890</td>
+                        <td>Vrushali</td>
+                        <td><span class="rupee">45120</span></td>
+                        <td>2023-10-04</td>
+                    </tr>
+                    <tr>
+                        <td>BS13579</td>
+                        <td>Nandini</td>
+                        <td><span class="rupee">55000</span></td>
+                        <td>2023-10-03</td>
+                    </tr>
+                    <!-- Add more rows with random data as needed -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ideal College</p>
+    </footer>
+</body>
+</html>
